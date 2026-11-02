@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandru K | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo">CHANDRU<span>.</span></a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav class="navbar" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a class="active" href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="page">
+    <div class="page-heading">
+        <p>GET IN TOUCH</p>
+        <h1>Contact <span>Me</span></h1>
+    </div>
+
+    <div class="contact-layout">
+
+        <div class="contact-details">
+            <h2>Let's Talk!</h2>
+            <p>
+                Have a project idea, collaboration or opportunity?
+                I would love to hear from you.
+            </p>
+
+            <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div>
+                    <h3>Email</h3>
+                    <p>Add your email address</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div>
+                    <h3>Location</h3>
+                    <p>Tamil Nadu, India</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">💻</div>
+                <div>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/" target="_blank">
+                        Visit my GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+            <h2>Send a Message</h2>
+
+            <input type="text" id="name"
+                placeholder="Your Name" required>
+
+            <input type="email" id="email"
+                placeholder="Your Email" required>
+
+            <input type="text" id="subject"
+                placeholder="Subject" required>
+
+            <textarea id="message" rows="5"
+                placeholder="Write your message..."
+                required></textarea>
+
+            <button type="submit" class="btn">
+                Send Message →
+            </button>
+
+            <p id="formMessage"></p>
+        </form>
+
+    </div>
+</main>
+
+<footer>© 2026 Chandru K. | All Rights Reserved.</footer>
+<script src="script.js"></script>
+</body>
+</html>
